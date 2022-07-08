@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+}
+
+.img2-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img2-div img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.heading-div {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 399px) {
+    .heading-div {
+        margin-top: 40px;
+    }
+}
+
+.heading-div h1 {
+    font-family: cursive;
+    color: #744703;
+    text-align: center;
+    /* opacity: 0.8; */
+}
+
+@media only screen and (max-width: 399px) {
+    .heading-div h1 {
+        font-size: 25px;
+    }
+}
+
+.remainder-div {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 399px) {
+    .remainder-div {
+        margin-top: 50px;
+    }
+}
+
+.btn-div button {
+    padding: 10px 20px;
+    background-color: #744703;
+    /* opacity: 0.8; */
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.day-div {
+    width: 100%;
+    height: auto;
+}
+
+.hours-div {
+    width: 100%;
+    height: auto;
+}
+
+.minute-div {
+    width: 100%;
+    height: auto;
+}
+
+.seconds-div {
+    width: 100%;
+    height: auto;
+}
+
+.btn-div {}
+
+@media only screen and (max-width: 399px) {
+    .btn-div button {
+        font-size: 20px;
+        padding: 6px 15px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .remainder-div h4 {
+        font-size: 18px;
+    }
+}
+.right-div{
+    background-color: #fffef9
+}
+.days {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.days .child-div button {
+    background-color: rgb(215 190 171);
+    /* opacity: 0.8; */
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(60, 57, 57);
+    border: 2px solid gray;
+    margin-left: 37px;
+}
+
+.child-div button:hover {
+    background-color: rgb(232, 160, 105);
+}
+
+.section-div {
+    margin-top: 90px;
+}
+
+@media only screen and (max-width: 399px) {
+    .section-div {
+        margin-top: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .days .child-div button {
+        padding: 4px 6px;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 0px;
+        border: 1px solid gray;
+
+    }
+}
